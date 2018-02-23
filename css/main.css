@@ -1,0 +1,88 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+/* Constants*/
+body {
+  font-family: "Helvetica", sans-serif;
+  padding: 50px;
+  background-color: #ff3e00;
+}
+.container-fluid {
+  width: 100%;
+}
+.banner {
+  background-color: grey;
+}
+.banner-2 {
+  background-color: #1f1f1f;
+  color: white;
+}
+.quote {
+  color: white;
+}
+.weights {
+  background-color: #ffffff;
+  color: #1f1f1f;
+}
+.glyphs {
+  background-color: #ffffff;
+  color: #1f1f1f;
+}
+.red {
+  color: #ff3e00;
+}
+.button {
+  color: white;
+  font-weight: normal;
+}
+.sizes {
+  background-color: #ffffff;
+  color: #1f1f1f;
+}
+.a {
+  color: white;
+  font-family: "Helvetica";
+  font-weight: normal;
+}
+
+/*Desktop*/
+@media (min-width: 901px) {
+  .display {
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+  }
+  .col-2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+  }
+  .col-3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+  }
+  .col-4-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+}
+
+/*Middle*/
+@media (max-width: 900px) {
+  .display {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+/*Small*/
+@media (max-width: 899px) {
+  .display {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+  }
+}
